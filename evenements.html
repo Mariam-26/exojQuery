@@ -5,14 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evènements - jQuery</title>
+    <title>Evènements liés à la sourie - jQuery</title>
+
+    <style>
+        .para1,
+        .para3,
+        .para5,
+        .para7 {
+            border: 1px solid red;
+        }
+        
+        #para2,
+        #para4,
+        #para6,
+        #para8 {
+            border: 1px solid green;
+        }
+    </style>
 </head>
 
 <body>
 
     <h1>Découverte du jQuery</h1>
-    <p class="para">Un premier paragraphe</p>
-    <p id="deux">Un deuxième paragraphe</p>
+    <p class="para1">Un premier paragraphe</p>
+    <p id="para2">Un deuxième paragraphe</p>
+    <p class="para3">Un troisième paragraphe</p>
+    <p id="para4">Un quatrième paragraphe</p>
+    <p class="para5">Un cinquième paragraphe</p>
+    <p id="para6">Un sixième paragraphe</p>
+    <p class="para7">Un septième paragraphe</p>
+    <p id="para8">Un huitième paragraphe</p>
 
 
 
@@ -20,8 +42,49 @@
 
     <script>
         $(document).ready(function() {
+
+            // Méthode "click()"
             $('h1').click(function() {
                 $(this).hide();
+            });
+
+            // Méthode "dblclick()"
+            $("p").dblclick(function() {
+                $(this).hide();
+            });
+
+            // Méthode "mouseenter()"
+            $('#para4').hide();
+
+            $('.para3').mouseenter(function() {
+                $('#para4').show();
+            });
+
+            // Méthode "mouseout()"
+            $('.para3').mouseleave(function() {
+                $('#para4').hide();
+            });
+
+            // Méthode "mouseenter()"
+            $('#para6').hide();
+            $('.para5').hover(
+                function() {
+                    $('#para6').show();
+                },
+                function() {
+                    $('#para6').hide();
+                }
+            );
+
+            // Méthode "mousedown()"
+            $('#para8').hide();
+            $('.para7').mousedown(function() {
+                $('#para8').show();
+            });
+
+            // Méthode "mouseup()"
+            $('.para7').mouseup(function() {
+                $('#para8').hide();
             });
 
         });
