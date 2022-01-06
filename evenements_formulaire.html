@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evènements liés au formulaire - jQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <h1>Gestion d'évènement formulaire en jQuery</h1>
+
+    <form id="formulaire">
+        <fieldset id="fld">
+            <label for="prenom">Enttrez votre prenom :</label>
+            <input type="text" name="prenom" id="prenom"><br>
+
+            <label for="nom">Entrez votre nom :</label>
+            <input type="text" id="nom" name="nom"><br>
+
+            <select name="#" id="liste">
+              <option value="c1" selected="selected">Choix1</option>
+              <option value="c2">Choix2</option>
+            </select><br>
+
+            <input type="submit" value="Envoyer">
+        </fieldset>
+    </form>
+
+    <p>Dernier caractère tapé : <span id="ascii"></span></p>
+
+
+
+    <!-- Mon JS -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/evenement_formulaire.js"></script>
+
+
+</body>
+
+</html>
