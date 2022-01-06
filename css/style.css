@@ -1,0 +1,48 @@
+.div1,
+.div2 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.para1,
+#para2 {
+    border: 1px solid red;
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.para3,
+#para4 {
+    border: 1px solid green;
+    font-size: 1.5rem;
+    color: brown;
+}
+
+.para5,
+#para6 {
+    border: 1px solid yellow;
+    font-size: 1.5rem;
+    color: cyan;
+}
+
+.para7,
+#para8 {
+    border: 1px solid blue;
+    font-size: 1.5rem;
+    color: darkmagenta;
+}
+
+.para9,
+#para10 {
+    border: 1px solid rgb(128, 0, 85);
+    font-size: 1.5rem;
+    color: darkorange;
+}
+
+.para11,
+#para12 {
+    border: 1px solid rgb(0, 128, 17);
+    font-size: 1.5rem;
+    color: green;
+}
