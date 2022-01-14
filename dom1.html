@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulation du DOM HTML - jQuery</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <h1>Manipulation du <mark>DOM HTML</mark> </h1>
+    <span id="test"></span><br>
+    <span id="testH1"></span>
+
+    <h2>Un titre de niveau deux</h2>
+    <span id="testH2"></span><br>
+
+    <h3>Un titre de niveau trois</h3>
+    <span id="testH3"></span><br><br>
+
+    <form action="#">
+        <label for="prenom">Entrez un prenom</label>
+        <input type="text" id="prenom" name="prenom">
+        <span id="sp1"></span><br>
+
+        <select multiple="multiple">
+            <option>Option 1</option>
+            <option>Option 2</option>
+            <option>Option 3</option>
+        </select>
+    </form>
+
+    <span id="sp2"></span>
+
+    <h4 class="titre">Un titre de niveau quatre</h4>
+    <h5 class="t">Utilisation de <code>attr()</code></h5>
+    <a>Un lien</a><br>
+    <span id="test5"></span>
+
+    <form>
+        <label for="c">Cochez / décochez la case</label>
+        <input type="checkbox" id="c" checked='checked'><br>
+    </form>
+    <span id="sp3"></span>
+
+    <p class="para1">Elément p parent du <span class="sp4">premier span</span></p>
+    <ul>
+        <li>Elément li parent du <span class="sp4">span n°2</span></li>
+        <li>Deuxième élément li</li>
+    </ul>
+
+    <ul>(elt ul n°1)
+        <li>Premier élément de liste (elt li n°1.1)</li>
+        <li>Elémént li contenant (elt li n°2.1)
+            <ul>(elt ul n°2)
+                <li>Une autre liste (elt li n°2.1)</li>
+                <li>Avec notre (elt li n°2.2) <span id="sp5">span</span></li>
+            </ul>
+        </li>
+        <li>troisième élément de la liste (elt li n°1.3)</li>
+    </ul>
+    <!-- <p id="para2">Un deuxième paragraphe</p>
+    <p class="para3">Un troisième paragraphe</p>
+    <p id="para4">Un quatrième paragraphe</p>
+    <p class="para5">Un cinquième paragraphe</p>
+    <p id="para6">Un sixième paragraphe</p>
+    <p class="para7">Un septième paragraphe</p>
+    <p id="para8">Un huitième paragraphe</p>
+    <p class="para9">Un neuvième paragraphe</p>
+    <p id="para10">Un dixiième paragraphe</p>
+    <p class="para11">Un onzième paragraphe</p>
+    <p id="para12">Un douzièième paragraphe</p> -->
+
+    <!-- Mon JS -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/dom.js"></script>
+
+
+</body>
+
+</html>
