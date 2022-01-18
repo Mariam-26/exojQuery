@@ -1,0 +1,21 @@
+div {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.defaut {
+    font-size: 30px;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.centre {
+    text-align: center;
+}
