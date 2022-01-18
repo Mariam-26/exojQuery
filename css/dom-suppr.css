@@ -1,0 +1,28 @@
+#monDiv1 {
+    border: 2px solid orangered;
+    padding: 5px;
+    margin: 5px;
+}
+
+#monDiv2 {
+    border: 2px solid green;
+    padding: 5px;
+    margin: 5px;
+}
+
+#monDiv3 {
+    border: 2px solid yellow;
+    padding: 5px;
+    margin: 5px;
+}
+
+#monDiv4 {
+    border: 2px solid blue;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+}
