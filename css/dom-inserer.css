@@ -1,0 +1,16 @@
+#monDiv {
+    border: 2px solid orangered;
+    padding: 5px;
+    margin: 5px;
+}
+
+#monDiv2 {
+    border: 2px solid green;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    margin: 5px;
+    padding: 5px;
+}
