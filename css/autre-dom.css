@@ -1,0 +1,16 @@
+div {
+    padding: 5px;
+    margin: 5px;
+}
+
+.wrap {
+    border: 1px solid red;
+}
+
+.wrapA {
+    border: 1px solid blue;
+}
+
+.wrapI {
+    border: 1px solid green;
+}
